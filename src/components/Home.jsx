@@ -47,8 +47,8 @@ const Home = () => {
         setSearchParams({});
     }
   return (
-    <div className='w-1/2 mx-auto my-1 flex flex-col h-full p-3 '>
-        <div className='flex felx-row justify-between'>
+    <div className='w-1/2 max-md:w-full mx-auto my-1 flex flex-col h-full p-3 '>
+        <div className='w-full max-sm:w-full flex flex-row justify-between'>
           <input className='outline-none border-b-2 rounded p-2 w-1/2'
              type="text"
              placeholder='Enter title' 
